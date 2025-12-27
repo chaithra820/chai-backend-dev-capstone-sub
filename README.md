@@ -1,2 +1,4 @@
-# chai-backend-dev-capstone-sub
-Coursera Submission for Backend Dev Capstone
+Little Lemon API Endpoints:
+
+/api/menu/
+/api/bookings/
