@@ -1,6 +1,10 @@
 from rest_framework import viewsets
 from .models import Menu, Booking
 from .serializers import MenuSerializer, BookingSerializer
+from django.shortcuts import render
+
+def index(request):
+    return render(request, 'index.html')
 
 class MenuViewSet(viewsets.ModelViewSet):
     queryset = Menu.objects.all()
